@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200;400;600&display=swap');
+body {
+    background-color: #F2F2F2;
+}
+header {
+    height: 161px;
+    width: 311px;
+    text-align: center;
+    margin: auto;
+    margin-top: 85px;
+}
+h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.166667px;
+    color: #4D4F62;
+}
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.166667px;
+    color: #4D4F62;
+}
+p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.104167px;
+    color: #4D4F62;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-top: 13px;
+
+}
+.container {
+    margin-top: 76px;
+    display: grid;
+    gap: 25px;
+    margin-bottom: 78px;
+    
+}
+.card {
+    margin: auto;
+    height: 222px;
+    width: 311px;
+    background-color: #ffffff;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px;
+    position: relative;
+    
+}
+.upline {
+    width: 311px;
+    height: 3.55px;
+    
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+#l1 {
+    background-color: #44D3D2;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+#l2 {
+    background-color: #EA5454;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+#l3 {
+    background: #FCAE4A;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+#l4 {
+    background: #549EF2;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+
+}
+h3 {
+    padding-top: 27px;
+    padding-left: 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #4D4F62;
+}
+.card>p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.0902778px;
+    color: #4D4F62;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-left: 29px;
+    padding-top: 0px;
+    text-align: left;
+}
+.asset {
+    width: 57px;
+    height: 57px;
+    position: absolute;
+    top: 137px;
+    left: 226px;
+    background-size: contain;
+}
+#a1 {
+    background-image: url(./assets/icon-supervisor.svg);
+
+}
+#a2 {
+    background-image: url(./assets/icon-team-builder.svg);
+}
+#a3 {
+    background-image: url(./assets/icon-karma.svg);
+}
+#a4 {
+    background-image: url(./assets/icon-calculator.svg);
+}
